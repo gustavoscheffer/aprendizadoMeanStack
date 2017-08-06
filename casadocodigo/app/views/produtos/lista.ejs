@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Casa do Código </title>
+  </head>
+  <body>
+    <h1>Lista de Livros</h1>
+    <table>
+      <thead>
+        <th>ID:</th>
+        <th>TITLE:</th>
+        <th>DESCRIPTION:</th>
+        <th>PRICE:</th>
+      </thead>
+        <% lista.forEach(function(item){ %>
+          <tr>
+            <td><%= item.id %></td>
+            <td><%= item.titulo %></td>
+            <td><%= item.descricao %></td>
+            <td><%= item.preco %></td>
+          </tr>
+        <% }); %>
+    </table>
+  </body>
+</html>
