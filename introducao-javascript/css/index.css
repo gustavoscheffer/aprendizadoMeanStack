@@ -1,0 +1,47 @@
+.campo-nome{
+	width: 200px;
+}
+
+.cabecalho{
+	color: #FFF;
+	background-color: #977EF1;
+	font-size: 20px;
+}
+.adicionar-paciente{
+    margin-top: 30px;
+}
+
+.campo-invalido{
+	border: 1px solid red;
+}
+
+.paciente-invalido {
+	background-color: lightcoral;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#filtrar-tabela {
+	width: auto;
+	margin-bottom: 3px;
+}
+
+.invisivel {
+	display: none;
+}
+
+header {
+	background-color: #977EF1;
+	color:#FFFFFF ;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
