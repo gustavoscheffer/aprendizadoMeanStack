@@ -1,24 +1,33 @@
+<!--form.ejs -->
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <form class="" action="index.html" method="post">
-      <div>
-        <label for="titulo">Titulo: </label>
-        <input type="text" name="titulo" id="titulo" placeholder="coloque o titulo do livro">
 
-        <label for="preco">Preco: </label>
-        <input type="text" name="preco" id="preco" placeholder="coloque o preco do livro">
+<head>
+  <meta charset="utf-8">
+  <title>Cadastro de Produtos</title>
+</head>
 
-        <label for="descricao">Descricao: </label>
-        <textarea name="titulo" id="titulo" placeholder="Fale um pouco sobre o livro"></textarea>
+<body>
+  <h2> Cadastre o seu produto aqui: </h2>
+  <form class="" action="/produtos/salva" method="post">
+    <div>
+      <label for="titulo">Titulo: </label>
+      <input type="text" name="titulo" id="titulo" placeholder="coloque o titulo do livro">
+      <br>
+      <br>
+      <label for="preco">Preco: </label>
+      <input type="text" name="preco" id="preco" placeholder="coloque o preco do livro">
+      <br>
+      <br>
+      <label for="descricao">Descricao: </label>
+      <textarea name="titulo" cols="30" rows="10" id="titulo" placeholder="Fale um pouco sobre o livro"></textarea>
+      <br>
+      <br>
+      <button type="submit" name="enviar" value="Gravar"> Enviar</button>
+    </div>
+  </form>
 
-        <button type="submit" name="button"> Enviar</button>
-      </div>
-    </form>
+</body>
 
-  </body>
 </html>
